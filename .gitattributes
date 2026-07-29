@@ -1,0 +1,11 @@
+# Keep GitHub Linguist focused on source code rather than content assets.
+*.md linguist-documentation
+*.pdf linguist-documentation
+*.png linguist-documentation
+knowledge/** linguist-documentation
+data/seed_knowledge/** linguist-documentation
+data/line/** linguist-documentation
+
+# Compiled/runtime artifacts should never count as source.
+*.pyc linguist-generated
+__pycache__/** linguist-generated
