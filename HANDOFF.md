@@ -12,6 +12,19 @@ teacher-submission review, and Supabase Storage end-to-end smoke paths.
 Saved on 2026-07-29 after Refine migration, LINE real-client validation, school-admin isolation,
 GitHub publish smoke, submission classification, smoke-data cleanup, and test/lint validation.
 
+Final save point on 2026-07-29:
+
+- Code repository progress was uploaded to `Candymoon0627/summer_school` on branch `main`.
+- Current code delivery commit: `132881ae202e6373237d407b2f4659c4736f4fb1`
+  (`Deliver LINE education assistant MVP`).
+- The local `.git` directory was repaired and reattached to `origin/main`; `git status --short`
+  was clean and local `HEAD` matched remote `HEAD`.
+- Ignored local-only artifacts include `.env`, `.tmp/`, `.pytest_run_*/`, storage/cache folders,
+  build output, and `node_modules`.
+- Pattani MVP seed knowledge remains published in GitHub under `knowledge/`: 80 items total,
+  `math:40`, `science:40`, with `pending_github=0` in the database.
+- Final lightweight validation after repository upload: `ruff check app scripts tests` passed.
+
 Current working state:
 
 - Docker Desktop/WSL is available, but no app containers are required for the latest local
