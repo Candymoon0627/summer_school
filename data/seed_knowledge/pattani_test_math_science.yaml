@@ -1,0 +1,209 @@
+- knowledge_type: term_explanation
+  title: "Fractions as equal parts"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: fractions
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "A fraction shows how many equal parts of a whole are being used. In 3/4, the denominator 4 means the whole is divided into four equal parts, and the numerator 3 means three of those parts are counted."
+  content_th: "เศษส่วนแสดงจำนวนส่วนที่เท่ากันของสิ่งหนึ่งทั้งหมด ใน 3/4 ตัวส่วน 4 หมายถึงแบ่งทั้งหมดเป็น 4 ส่วนเท่า ๆ กัน และตัวเศษ 3 หมายถึงนับมา 3 ส่วนนั้น"
+  content_ms: "Pecahan menunjukkan bahagian yang sama besar daripada satu keseluruhan. Dalam 3/4, 4 ialah jumlah bahagian sama, dan 3 ialah bahagian yang diambil."
+  local_context: "Use sharing roti, fruit, or fish portions at a Pattani market as familiar examples."
+  classroom_use: "Ask students to draw one whole object, split it into equal parts, shade a fraction, then explain numerator and denominator."
+  safety_notes: "Avoid food examples that assume every student can buy the same items."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary math concepts; suitable for pipeline testing, not final curriculum approval."
+  verified: true
+
+- knowledge_type: teaching_activity
+  title: "Equivalent fractions with paper strips"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: equivalent fractions
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "Equivalent fractions name the same amount even when the numerator and denominator are different. For example, 1/2 and 2/4 cover the same length on matching strips."
+  content_th: "เศษส่วนที่เท่ากันหมายถึงปริมาณเดียวกัน แม้ตัวเศษและตัวส่วนต่างกัน เช่น 1/2 และ 2/4 มีความยาวที่ถูกระบายเท่ากันบนแถบกระดาษที่ขนาดเท่ากัน"
+  content_ms: "Pecahan setara menunjukkan jumlah yang sama walaupun nombor berbeza. Contohnya 1/2 dan 2/4 meliputi panjang yang sama."
+  local_context: "Use folded paper strips; no special materials are required."
+  classroom_use: "Students fold one strip into halves and another into fourths, shade 1/2 and 2/4, then compare the shaded lengths."
+  safety_notes: "If scissors are used, supervise cutting or prepare strips before class."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary math concepts."
+  verified: true
+
+- knowledge_type: local_example
+  title: "Perimeter using a classroom mat"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: perimeter
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "Perimeter is the total distance around the outside of a shape. For a rectangle, add all side lengths or use 2 times length plus 2 times width."
+  content_th: "เส้นรอบรูปคือระยะทางทั้งหมดรอบด้านนอกของรูป สำหรับรูปสี่เหลี่ยมผืนผ้า ให้นำความยาวทุกด้านมาบวกกัน หรือใช้ 2 เท่าของความยาวบวก 2 เท่าของความกว้าง"
+  content_ms: "Perimeter ialah jumlah jarak di sekeliling bentuk. Untuk segi empat tepat, tambah semua sisi atau gunakan 2 kali panjang tambah 2 kali lebar."
+  local_context: "Measure the edge of a classroom mat, table, or exercise book."
+  classroom_use: "Pairs measure length and width with a ruler or string, calculate perimeter, and compare methods."
+  safety_notes: "Keep movement around the classroom slow and organized."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general measurement concepts."
+  verified: true
+
+- knowledge_type: term_explanation
+  title: "Area as covering space"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: area
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "Area measures how much flat space a shape covers. A rectangle's area can be found by counting unit squares or multiplying length by width."
+  content_th: "พื้นที่บอกว่ารูปหนึ่งครอบคลุมพื้นที่ราบมากเท่าใด พื้นที่ของรูปสี่เหลี่ยมผืนผ้าหาได้โดยนับช่องสี่เหลี่ยมหน่วย หรือคูณความยาวด้วยความกว้าง"
+  content_ms: "Luas mengukur ruang rata yang diliputi oleh sesuatu bentuk. Luas segi empat tepat boleh dicari dengan mengira petak unit atau mendarab panjang dengan lebar."
+  local_context: "Use floor tiles or grid paper to make area visible."
+  classroom_use: "Students draw rectangles on grid paper, count squares, then connect counting to multiplication."
+  safety_notes: "Use paper grids if floor tiles are uneven or crowded."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general measurement concepts."
+  verified: true
+
+- knowledge_type: term_explanation
+  title: "Water cycle basics"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: water cycle
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "The water cycle describes how water moves between land, living things, bodies of water, and the air. Key steps include evaporation, condensation, precipitation, and collection."
+  content_th: "วัฏจักรน้ำอธิบายการเคลื่อนที่ของน้ำระหว่างพื้นดิน สิ่งมีชีวิต แหล่งน้ำ และอากาศ ขั้นตอนสำคัญได้แก่ การระเหย การควบแน่น การตกลงมาเป็นฝน และการสะสมในแหล่งน้ำ"
+  content_ms: "Kitaran air menerangkan pergerakan air antara tanah, hidupan, sumber air dan udara. Langkah utama ialah penyejatan, pemeluwapan, hujan dan pengumpulan."
+  local_context: "Connect the idea to rainy seasons, ponds, canals, and sea air in southern Thailand."
+  classroom_use: "Students create a four-step diagram and label where heat from the sun is involved."
+  safety_notes: "For any water demonstration, keep the floor dry to prevent slipping."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary science concepts."
+  verified: true
+
+- knowledge_type: teaching_activity
+  title: "Evaporation observation"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: evaporation
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "Evaporation happens when liquid water changes into water vapor. Warmth, moving air, and larger exposed surface area can make evaporation faster."
+  content_th: "การระเหยเกิดขึ้นเมื่อน้ำของเหลวเปลี่ยนเป็นไอน้ำ ความร้อน ลม และพื้นที่ผิวที่เปิดกว้างขึ้นอาจทำให้น้ำระเหยเร็วขึ้น"
+  content_ms: "Penyejatan berlaku apabila air cecair menjadi wap air. Haba, pergerakan udara dan permukaan yang lebih luas boleh mempercepat penyejatan."
+  local_context: "Compare a wet cloth in sun and shade, similar to drying clothes at home."
+  classroom_use: "Place two equal wet cloth pieces in different locations, observe after 20 minutes, and discuss variables."
+  safety_notes: "Do not leave materials where students may trip or where electrical devices can get wet."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary science concepts."
+  verified: true
+
+- knowledge_type: term_explanation
+  title: "Plant parts and functions"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: plant parts
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "Roots help take in water and hold the plant in place. Stems support the plant and move water. Leaves help the plant make food using light."
+  content_th: "รากช่วยดูดน้ำและยึดพืชให้อยู่กับที่ ลำต้นช่วยพยุงพืชและลำเลียงน้ำ ใบช่วยให้พืชสร้างอาหารโดยใช้แสง"
+  content_ms: "Akar menyerap air dan memegang tumbuhan pada tempatnya. Batang menyokong tumbuhan dan mengangkut air. Daun membantu tumbuhan membuat makanan menggunakan cahaya."
+  local_context: "Use banana, coconut, rice, or local garden plants as familiar examples."
+  classroom_use: "Students label a plant drawing and match each part to its function."
+  safety_notes: "Do not ask students to touch unknown plants; some may irritate skin."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary life science concepts."
+  verified: true
+
+- knowledge_type: teaching_activity
+  title: "Classifying materials by properties"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: material properties
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "Materials can be compared by properties such as hardness, flexibility, transparency, texture, and whether they absorb water."
+  content_th: "วัสดุสามารถเปรียบเทียบกันได้จากสมบัติ เช่น ความแข็ง ความยืดหยุ่น ความโปร่งใส ผิวสัมผัส และการดูดซับน้ำ"
+  content_ms: "Bahan boleh dibandingkan melalui sifat seperti keras, lentur, lut cahaya, tekstur dan sama ada menyerap air."
+  local_context: "Use safe classroom objects such as paper, cloth, plastic bottle, rubber band, and wooden pencil."
+  classroom_use: "Groups sort objects into categories, explain the rule they used, then test one property with a simple observation."
+  safety_notes: "Avoid sharp, dirty, glass, or unknown objects."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary physical science concepts."
+  verified: true
+
+- knowledge_type: term_explanation
+  title: "Push and pull forces"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: forces
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "A force is a push or pull that can change how an object moves. A stronger force can make an object speed up, slow down, stop, or change direction."
+  content_th: "แรงคือการผลักหรือดึงที่ทำให้การเคลื่อนที่ของวัตถุเปลี่ยนไป แรงที่มากขึ้นอาจทำให้วัตถุเร็วขึ้น ช้าลง หยุด หรือเปลี่ยนทิศทาง"
+  content_ms: "Daya ialah tolakan atau tarikan yang boleh mengubah pergerakan objek. Daya yang lebih kuat boleh mempercepat, memperlahankan, menghentikan atau menukar arah objek."
+  local_context: "Use pushing a desk gently, pulling a school bag, or kicking a soft ball as examples."
+  classroom_use: "Students list daily push and pull examples, then predict motion changes before observing."
+  safety_notes: "Use light objects only; do not push people or heavy furniture."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary physical science concepts."
+  verified: true
+
+- knowledge_type: local_example
+  title: "Reading a simple pictograph"
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: data representation
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: "A pictograph uses pictures or symbols to show data. Always check the key, because one picture may stand for more than one item."
+  content_th: "แผนภูมิรูปภาพใช้รูปหรือสัญลักษณ์แทนข้อมูล ต้องดูคำอธิบายสัญลักษณ์เสมอ เพราะรูปหนึ่งรูปอาจแทนจำนวนมากกว่าหนึ่งรายการ"
+  content_ms: "Piktograf menggunakan gambar atau simbol untuk menunjukkan data. Sentiasa semak kunci kerana satu gambar mungkin mewakili lebih daripada satu item."
+  local_context: "Use a class survey about favorite fruits, transport to school, or after-school activities."
+  classroom_use: "Students collect quick class data, draw symbols, write a key, and answer comparison questions."
+  safety_notes: "Avoid survey questions that reveal income, religion, ethnicity, or sensitive family details."
+  quality_score: 4
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: "Self-authored MVP test item based on general elementary data concepts."
+  verified: true

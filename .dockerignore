@@ -1,0 +1,15 @@
+.git
+.agents
+.codex
+.env
+.env.*
+.local_storage
+.local_storage_smoke
+.pytest_cache
+.pytest_run_*
+.tmp
+__pycache__
+*.py[cod]
+*.egg-info
+.venv
+venv

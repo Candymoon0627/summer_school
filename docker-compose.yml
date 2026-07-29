@@ -1,0 +1,47 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: edu_ai
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "127.0.0.1:6379:6379"
+
+  api:
+    image: edu_ai-api
+    build: .
+    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+      - redis
+
+  worker:
+    image: edu_ai-worker
+    build: .
+    command: python -m app.worker.main
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+      - redis
+
+volumes:
+  postgres_data:

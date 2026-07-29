@@ -1,0 +1,2220 @@
+- knowledge_type: term_explanation
+  title: Fractions as equal parts - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: fractions
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Fractions as equal parts is a core grade 3 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เศษส่วนคือส่วนที่เท่ากันของทั้งหมด สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Equivalent fractions - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: equivalent fractions
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Equivalent fractions is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เศษส่วนที่เท่ากันแทนปริมาณเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Perimeter of rectangles - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: perimeter
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Perimeter of rectangles is a core grade 5 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เส้นรอบรูปคือผลรวมความยาวรอบรูป สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Area with unit squares - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: area
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Area with unit squares is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: พื้นที่คือจำนวนช่องหน่วยที่ปกคลุมรูป สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Reading pictographs - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: data representation
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Reading pictographs is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แผนภูมิรูปภาพใช้สัญลักษณ์แสดงข้อมูล สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Multiplication as groups - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: multiplication
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Multiplication as groups is a core grade 5 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: การคูณคือกลุ่มที่มีจำนวนเท่ากัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Division as sharing - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: division
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Division as sharing is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การหารคือการแบ่งอย่างเท่าเทียม สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Decimals and tenths - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: decimals
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Decimals and tenths is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ทศนิยมแสดงส่วนของสิบหรือร้อย สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Measuring length - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: measurement
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Measuring length is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การวัดความยาวต้องใช้หน่วยเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Elapsed time - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: time
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Elapsed time is a core grade 3 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: เวลาที่ผ่านไปหาได้จากเวลาเริ่มและเวลาสิ้นสุด สำหรับชั้นประถมศึกษาปีที่
+    3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Water cycle - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: water cycle
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Water cycle is a core grade 4 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: วัฏจักรน้ำมีการระเหย ควบแน่น และฝนตก สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Evaporation - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: evaporation
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Evaporation is a core grade 5 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: การระเหยคือน้ำเปลี่ยนเป็นไอน้ำ สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Plant parts - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: plant parts
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Plant parts is a core grade 3 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: ราก ลำต้น และใบมีหน้าที่ต่างกัน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Material properties - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: material properties
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Material properties is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: วัสดุมีสมบัติเช่นแข็ง ยืดหยุ่น หรือดูดซับน้ำ สำหรับชั้นประถมศึกษาปีที่
+    4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Push and pull forces - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: forces
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Push and pull forces is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แรงผลักและแรงดึงเปลี่ยนการเคลื่อนที่ สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Habitats - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: habitats
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Habitats is a core grade 3 concept for MVP retrieval testing. The teacher
+    should define the idea, show one concrete example, and ask students to explain
+    the reasoning in their own words.
+  content_th: ถิ่นที่อยู่ให้สิ่งมีชีวิตมีอาหาร น้ำ และที่หลบภัย สำหรับชั้นประถมศึกษาปีที่
+    3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: States of matter - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: states of matter
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: States of matter is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ของแข็ง ของเหลว และแก๊สมีสมบัติต่างกัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Light and shadows - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: light
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Light and shadows is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เงาเกิดเมื่อวัตถุกั้นทางเดินของแสง สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Sound vibrations - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: sound
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Sound vibrations is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เสียงเกิดจากการสั่นสะเทือน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Weather observation - test item 1
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: weather
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Weather observation is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: สภาพอากาศสังเกตได้จากฝน ลม เมฆ และอุณหภูมิ สำหรับชั้นประถมศึกษาปีที่
+    4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Fractions as equal parts - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: fractions
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Fractions as equal parts is a core grade 5 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เศษส่วนคือส่วนที่เท่ากันของทั้งหมด สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Equivalent fractions - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: equivalent fractions
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Equivalent fractions is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เศษส่วนที่เท่ากันแทนปริมาณเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Perimeter of rectangles - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: perimeter
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Perimeter of rectangles is a core grade 4 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เส้นรอบรูปคือผลรวมความยาวรอบรูป สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Area with unit squares - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: area
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Area with unit squares is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: พื้นที่คือจำนวนช่องหน่วยที่ปกคลุมรูป สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Reading pictographs - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: data representation
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Reading pictographs is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แผนภูมิรูปภาพใช้สัญลักษณ์แสดงข้อมูล สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Multiplication as groups - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: multiplication
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Multiplication as groups is a core grade 4 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: การคูณคือกลุ่มที่มีจำนวนเท่ากัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Division as sharing - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: division
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Division as sharing is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การหารคือการแบ่งอย่างเท่าเทียม สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Decimals and tenths - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: decimals
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Decimals and tenths is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ทศนิยมแสดงส่วนของสิบหรือร้อย สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Measuring length - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: measurement
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Measuring length is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การวัดความยาวต้องใช้หน่วยเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Elapsed time - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: time
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Elapsed time is a core grade 5 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: เวลาที่ผ่านไปหาได้จากเวลาเริ่มและเวลาสิ้นสุด สำหรับชั้นประถมศึกษาปีที่
+    5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Water cycle - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: water cycle
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Water cycle is a core grade 3 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: วัฏจักรน้ำมีการระเหย ควบแน่น และฝนตก สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Evaporation - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: evaporation
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Evaporation is a core grade 4 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: การระเหยคือน้ำเปลี่ยนเป็นไอน้ำ สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Plant parts - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: plant parts
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Plant parts is a core grade 5 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: ราก ลำต้น และใบมีหน้าที่ต่างกัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Material properties - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: material properties
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Material properties is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: วัสดุมีสมบัติเช่นแข็ง ยืดหยุ่น หรือดูดซับน้ำ สำหรับชั้นประถมศึกษาปีที่
+    3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Push and pull forces - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: forces
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Push and pull forces is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แรงผลักและแรงดึงเปลี่ยนการเคลื่อนที่ สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Habitats - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: habitats
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Habitats is a core grade 5 concept for MVP retrieval testing. The teacher
+    should define the idea, show one concrete example, and ask students to explain
+    the reasoning in their own words.
+  content_th: ถิ่นที่อยู่ให้สิ่งมีชีวิตมีอาหาร น้ำ และที่หลบภัย สำหรับชั้นประถมศึกษาปีที่
+    5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: States of matter - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: states of matter
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: States of matter is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ของแข็ง ของเหลว และแก๊สมีสมบัติต่างกัน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Light and shadows - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: light
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Light and shadows is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เงาเกิดเมื่อวัตถุกั้นทางเดินของแสง สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Sound vibrations - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: sound
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Sound vibrations is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เสียงเกิดจากการสั่นสะเทือน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Weather observation - test item 2
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: weather
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Weather observation is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: สภาพอากาศสังเกตได้จากฝน ลม เมฆ และอุณหภูมิ สำหรับชั้นประถมศึกษาปีที่
+    3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Fractions as equal parts - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: fractions
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Fractions as equal parts is a core grade 4 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เศษส่วนคือส่วนที่เท่ากันของทั้งหมด สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Equivalent fractions - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: equivalent fractions
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Equivalent fractions is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เศษส่วนที่เท่ากันแทนปริมาณเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Perimeter of rectangles - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: perimeter
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Perimeter of rectangles is a core grade 3 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เส้นรอบรูปคือผลรวมความยาวรอบรูป สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Area with unit squares - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: area
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Area with unit squares is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: พื้นที่คือจำนวนช่องหน่วยที่ปกคลุมรูป สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Reading pictographs - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: data representation
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Reading pictographs is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แผนภูมิรูปภาพใช้สัญลักษณ์แสดงข้อมูล สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Multiplication as groups - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: multiplication
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Multiplication as groups is a core grade 3 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: การคูณคือกลุ่มที่มีจำนวนเท่ากัน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Division as sharing - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: division
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Division as sharing is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การหารคือการแบ่งอย่างเท่าเทียม สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Decimals and tenths - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: decimals
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Decimals and tenths is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ทศนิยมแสดงส่วนของสิบหรือร้อย สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Measuring length - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: measurement
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Measuring length is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การวัดความยาวต้องใช้หน่วยเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Elapsed time - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: time
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Elapsed time is a core grade 4 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: เวลาที่ผ่านไปหาได้จากเวลาเริ่มและเวลาสิ้นสุด สำหรับชั้นประถมศึกษาปีที่
+    4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Water cycle - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: water cycle
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Water cycle is a core grade 5 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: วัฏจักรน้ำมีการระเหย ควบแน่น และฝนตก สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Evaporation - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: evaporation
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Evaporation is a core grade 3 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: การระเหยคือน้ำเปลี่ยนเป็นไอน้ำ สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Plant parts - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: plant parts
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Plant parts is a core grade 4 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: ราก ลำต้น และใบมีหน้าที่ต่างกัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Material properties - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: material properties
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Material properties is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: วัสดุมีสมบัติเช่นแข็ง ยืดหยุ่น หรือดูดซับน้ำ สำหรับชั้นประถมศึกษาปีที่
+    5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Push and pull forces - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: forces
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Push and pull forces is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แรงผลักและแรงดึงเปลี่ยนการเคลื่อนที่ สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Habitats - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: habitats
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Habitats is a core grade 4 concept for MVP retrieval testing. The teacher
+    should define the idea, show one concrete example, and ask students to explain
+    the reasoning in their own words.
+  content_th: ถิ่นที่อยู่ให้สิ่งมีชีวิตมีอาหาร น้ำ และที่หลบภัย สำหรับชั้นประถมศึกษาปีที่
+    4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: States of matter - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: states of matter
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: States of matter is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ของแข็ง ของเหลว และแก๊สมีสมบัติต่างกัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Light and shadows - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: light
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Light and shadows is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เงาเกิดเมื่อวัตถุกั้นทางเดินของแสง สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Sound vibrations - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: sound
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Sound vibrations is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เสียงเกิดจากการสั่นสะเทือน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Weather observation - test item 3
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: weather
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Weather observation is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: สภาพอากาศสังเกตได้จากฝน ลม เมฆ และอุณหภูมิ สำหรับชั้นประถมศึกษาปีที่
+    5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Fractions as equal parts - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: fractions
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Fractions as equal parts is a core grade 3 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เศษส่วนคือส่วนที่เท่ากันของทั้งหมด สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Equivalent fractions - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: equivalent fractions
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Equivalent fractions is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เศษส่วนที่เท่ากันแทนปริมาณเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Perimeter of rectangles - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: perimeter
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Perimeter of rectangles is a core grade 5 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: เส้นรอบรูปคือผลรวมความยาวรอบรูป สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Area with unit squares - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: area
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Area with unit squares is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: พื้นที่คือจำนวนช่องหน่วยที่ปกคลุมรูป สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Reading pictographs - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: data representation
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Reading pictographs is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แผนภูมิรูปภาพใช้สัญลักษณ์แสดงข้อมูล สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Multiplication as groups - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: multiplication
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Multiplication as groups is a core grade 5 concept for MVP retrieval
+    testing. The teacher should define the idea, show one concrete example, and ask
+    students to explain the reasoning in their own words.
+  content_th: การคูณคือกลุ่มที่มีจำนวนเท่ากัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Division as sharing - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: division
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Division as sharing is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การหารคือการแบ่งอย่างเท่าเทียม สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Decimals and tenths - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: decimals
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Decimals and tenths is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ทศนิยมแสดงส่วนของสิบหรือร้อย สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Measuring length - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: measurement
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Measuring length is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: การวัดความยาวต้องใช้หน่วยเดียวกัน สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Elapsed time - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: math
+  topic: time
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Elapsed time is a core grade 3 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: เวลาที่ผ่านไปหาได้จากเวลาเริ่มและเวลาสิ้นสุด สำหรับชั้นประถมศึกษาปีที่
+    3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Water cycle - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: water cycle
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Water cycle is a core grade 4 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: วัฏจักรน้ำมีการระเหย ควบแน่น และฝนตก สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Evaporation - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: evaporation
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Evaporation is a core grade 5 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: การระเหยคือน้ำเปลี่ยนเป็นไอน้ำ สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Plant parts - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: plant parts
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Plant parts is a core grade 3 concept for MVP retrieval testing. The
+    teacher should define the idea, show one concrete example, and ask students to
+    explain the reasoning in their own words.
+  content_th: ราก ลำต้น และใบมีหน้าที่ต่างกัน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Material properties - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: material properties
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Material properties is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: วัสดุมีสมบัติเช่นแข็ง ยืดหยุ่น หรือดูดซับน้ำ สำหรับชั้นประถมศึกษาปีที่
+    4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Push and pull forces - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: forces
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Push and pull forces is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: แรงผลักและแรงดึงเปลี่ยนการเคลื่อนที่ สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Habitats - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: habitats
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Habitats is a core grade 3 concept for MVP retrieval testing. The teacher
+    should define the idea, show one concrete example, and ask students to explain
+    the reasoning in their own words.
+  content_th: ถิ่นที่อยู่ให้สิ่งมีชีวิตมีอาหาร น้ำ และที่หลบภัย สำหรับชั้นประถมศึกษาปีที่
+    3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: States of matter - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: states of matter
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: States of matter is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: ของแข็ง ของเหลว และแก๊สมีสมบัติต่างกัน สำหรับชั้นประถมศึกษาปีที่ 4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use examples from a Pattani classroom, local market, garden, canal,
+    or coastal community.
+  classroom_use: Students first predict, then test with a small drawing, measurement,
+    sorting task, or discussion.
+  safety_notes: Use clean, safe classroom materials and avoid sharp, hot, glass, or
+    unknown objects.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: teaching_activity
+  title: Light and shadows - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: light
+  target_grade: 5
+  grade_min: 4
+  grade_max: 6
+  content_en: Light and shadows is a core grade 5 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เงาเกิดเมื่อวัตถุกั้นทางเดินของแสง สำหรับชั้นประถมศึกษาปีที่ 5 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 5. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Connect the idea to familiar low-cost materials such as paper, string,
+    bottle caps, fruit, or notebooks.
+  classroom_use: Pairs explain their reasoning, compare answers, and revise one sentence
+    after teacher feedback.
+  safety_notes: Avoid examples that reveal sensitive family, income, religion, or
+    ethnicity information.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: local_example
+  title: Sound vibrations - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: sound
+  target_grade: 3
+  grade_min: 2
+  grade_max: 4
+  content_en: Sound vibrations is a core grade 3 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: เสียงเกิดจากการสั่นสะเทือน สำหรับชั้นประถมศึกษาปีที่ 3 ครูควรเริ่มจากตัวอย่างที่จับต้องได้
+    ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 3. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Use bilingual discussion in Thai with optional local Malay helper
+    phrases for peer explanation.
+  classroom_use: Groups make a quick table or diagram, then share one observation
+    with the class.
+  safety_notes: Keep movement organized and make sure water or floor activities do
+    not create slipping risk.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
+- knowledge_type: term_explanation
+  title: Weather observation - test item 4
+  region_code: pattani
+  visibility_scope: shared_region
+  subject: science
+  topic: weather
+  target_grade: 4
+  grade_min: 3
+  grade_max: 5
+  content_en: Weather observation is a core grade 4 concept for MVP retrieval testing.
+    The teacher should define the idea, show one concrete example, and ask students
+    to explain the reasoning in their own words.
+  content_th: สภาพอากาศสังเกตได้จากฝน ลม เมฆ และอุณหภูมิ สำหรับชั้นประถมศึกษาปีที่
+    4 ครูควรเริ่มจากตัวอย่างที่จับต้องได้ ให้ผู้เรียนสังเกต อธิบายเหตุผล และเชื่อมโยงกับสถานการณ์ใกล้ตัว
+  content_ms: Konsep ini sesuai untuk Tahun 4. Guru boleh menggunakan contoh harian,
+    meminta murid memerhati, berbincang dan menerangkan idea dengan perkataan sendiri.
+  local_context: Prefer examples that work in low-resource classrooms and do not require
+    internet or lab equipment.
+  classroom_use: The teacher checks understanding with one exit question connected
+    to a local example.
+  safety_notes: Supervise cutting, measuring, and outdoor observation activities.
+  quality_score: 3
+  source_type: oer_synthetic_test
+  source_confidence: medium
+  source_note: batch=pattani-test-v1-80; self-authored synthetic MVP test item inspired
+    by general elementary OER-style concepts; not final curriculum-approved content.
+  verified: true
