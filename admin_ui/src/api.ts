@@ -149,6 +149,11 @@ export const adminApi = {
     apiRequest<SubmissionDetail>(`/admin/submissions/${id}/publish-to-knowledge`, {
       method: "POST",
     }),
+  deleteSubmission: (id: string, note?: string) =>
+    apiRequest<SubmissionDetail>(`/admin/submissions/${id}/delete`, {
+      method: "POST",
+      body: note ? { note } : {},
+    }),
   knowledge: () => apiRequest<ItemsResponse<KnowledgeItem>>("/admin/knowledge?limit=100"),
   knowledgeVersions: (id: string) =>
     apiRequest<ItemsResponse<KnowledgeVersion>>(`/admin/knowledge/${id}/versions`),

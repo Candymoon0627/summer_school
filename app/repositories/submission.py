@@ -29,7 +29,9 @@ class SubmissionRepository:
 
     def status_counts(self) -> dict[str, int]:
         rows = self.db.execute(
-            select(Submission.status, func.count()).group_by(Submission.status)
+            select(Submission.status, func.count())
+            .where(Submission.status != "deleted")
+            .group_by(Submission.status)
         ).all()
         return {status: count for status, count in rows}
 

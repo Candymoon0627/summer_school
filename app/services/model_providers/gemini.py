@@ -1,5 +1,8 @@
 import json
+import logging
 import re
+import time
+from collections.abc import Callable
 from typing import Any
 
 from google import genai
@@ -9,6 +12,11 @@ from app.core.config import get_settings
 from app.schemas.lesson import LessonGenerationResult, StructuredLesson
 from app.services.model_providers.base import EmbeddingProvider, ModelProvider
 from app.services.model_providers.mock import render_lesson_markdown
+
+logger = logging.getLogger(__name__)
+
+RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+DEFAULT_RETRY_DELAYS_SECONDS = (1.0, 3.0, 8.0)
 
 
 class GeminiModelProvider(ModelProvider):
@@ -21,6 +29,7 @@ class GeminiModelProvider(ModelProvider):
         api_key: str | None = None,
         model_name: str | None = None,
         client: Any | None = None,
+        retry_delays: tuple[float, ...] | None = None,
     ) -> None:
         settings = get_settings()
         self.api_key = api_key or settings.gemini_api_key
@@ -34,16 +43,23 @@ class GeminiModelProvider(ModelProvider):
             else self.default_model
         )
         self.client = client or genai.Client(api_key=self.api_key)
+        self.retry_delays = (
+            DEFAULT_RETRY_DELAYS_SECONDS if retry_delays is None else retry_delays
+        )
 
     def generate_lesson(self, prompt: str) -> LessonGenerationResult:
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=self._lesson_prompt(prompt),
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=StructuredLesson,
-                max_output_tokens=16000,
+        response = _call_with_retry(
+            lambda: self.client.models.generate_content(
+                model=self.model_name,
+                contents=self._lesson_prompt(prompt),
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    response_schema=StructuredLesson,
+                    max_output_tokens=16000,
+                ),
             ),
+            operation="gemini.generate_lesson",
+            retry_delays=self.retry_delays,
         )
         lesson = StructuredLesson.model_validate_json(self._response_text(response))
         return LessonGenerationResult(
@@ -54,13 +70,17 @@ class GeminiModelProvider(ModelProvider):
         )
 
     def classify_json(self, prompt: str) -> dict:
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=f"{prompt}\n\nReturn a single JSON object only.",
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                max_output_tokens=1000,
+        response = _call_with_retry(
+            lambda: self.client.models.generate_content(
+                model=self.model_name,
+                contents=f"{prompt}\n\nReturn a single JSON object only.",
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    max_output_tokens=1000,
+                ),
             ),
+            operation="gemini.classify_json",
+            retry_delays=self.retry_delays,
         )
         return json.loads(self._extract_json_object(self._response_text(response)))
 
@@ -120,6 +140,7 @@ class GeminiEmbeddingProvider(EmbeddingProvider):
         model_name: str | None = None,
         output_dimensionality: int | None = None,
         client: Any | None = None,
+        retry_delays: tuple[float, ...] | None = None,
     ) -> None:
         settings = get_settings()
         self.api_key = api_key or settings.gemini_api_key
@@ -134,16 +155,23 @@ class GeminiEmbeddingProvider(EmbeddingProvider):
         )
         self.output_dimensionality = output_dimensionality
         self.client = client or genai.Client(api_key=self.api_key)
+        self.retry_delays = (
+            DEFAULT_RETRY_DELAYS_SECONDS if retry_delays is None else retry_delays
+        )
 
     def embed(self, text: str) -> list[float]:
         config = None
         if self.output_dimensionality:
             config = types.EmbedContentConfig(output_dimensionality=self.output_dimensionality)
 
-        response = self.client.models.embed_content(
-            model=self.model_name,
-            contents=text,
-            config=config,
+        response = _call_with_retry(
+            lambda: self.client.models.embed_content(
+                model=self.model_name,
+                contents=text,
+                config=config,
+            ),
+            operation="gemini.embed",
+            retry_delays=self.retry_delays,
         )
         embeddings = getattr(response, "embeddings", None)
         if not embeddings:
@@ -152,3 +180,38 @@ class GeminiEmbeddingProvider(EmbeddingProvider):
         if not values:
             raise ValueError("Gemini returned an empty embedding.")
         return [float(value) for value in values]
+
+
+def _call_with_retry(
+    call: Callable[[], Any],
+    *,
+    operation: str,
+    retry_delays: tuple[float, ...],
+) -> Any:
+    for attempt in range(len(retry_delays) + 1):
+        try:
+            return call()
+        except Exception as exc:
+            if attempt >= len(retry_delays) or not _is_retryable_gemini_error(exc):
+                raise
+            delay = retry_delays[attempt]
+            logger.warning(
+                "%s failed with retryable Gemini error on attempt %s/%s; retrying in %.1fs: %s",
+                operation,
+                attempt + 1,
+                len(retry_delays) + 1,
+                delay,
+                exc,
+            )
+            time.sleep(delay)
+    raise RuntimeError(f"{operation} retry loop exited unexpectedly.")
+
+
+def _is_retryable_gemini_error(exc: Exception) -> bool:
+    status_code = getattr(exc, "status_code", None)
+    if isinstance(status_code, int) and status_code in RETRYABLE_STATUS_CODES:
+        return True
+
+    response = getattr(exc, "response", None)
+    response_status = getattr(response, "status_code", None)
+    return isinstance(response_status, int) and response_status in RETRYABLE_STATUS_CODES

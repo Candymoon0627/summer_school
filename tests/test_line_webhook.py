@@ -6,6 +6,7 @@ import json
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.pool import StaticPool
 
 from app.api.main import app
 from app.core.config import get_settings
@@ -52,6 +53,48 @@ def test_line_webhook_accepts_valid_signature(monkeypatch) -> None:
 
     assert response.status_code == 200
     assert response.json()["status"] == "received"
+
+
+def test_line_webhook_commits_received_event(monkeypatch) -> None:
+    monkeypatch.setenv("LINE_CHANNEL_SECRET", "test-secret")
+    monkeypatch.setenv("LINE_CHANNEL_ACCESS_TOKEN", "")
+    get_settings.cache_clear()
+    engine = create_engine(
+        "sqlite+pysqlite:///:memory:",
+        connect_args={"check_same_thread": False},
+        poolclass=StaticPool,
+    )
+    Base.metadata.create_all(engine)
+    Session = sessionmaker(bind=engine, expire_on_commit=False)
+    monkeypatch.setattr("app.api.routes.line.SessionLocal", Session)
+    body = json.dumps(
+        {
+            "events": [
+                {
+                    "type": "message",
+                    "replyToken": "reply-token",
+                    "source": {"userId": "line-user-webhook-route"},
+                    "message": {"id": "message-route-1", "type": "text", "text": "wrong-code"},
+                }
+            ]
+        }
+    ).encode("utf-8")
+
+    response = TestClient(app).post(
+        "/line/webhook",
+        content=body,
+        headers={
+            "content-type": "application/json",
+            "x-line-signature": _signature(body, "test-secret"),
+        },
+    )
+
+    with Session() as db:
+        events = db.query(models.LineEvent).all()
+
+    assert response.status_code == 200
+    assert len(events) == 1
+    assert events[0].line_user_id == "line-user-webhook-route"
 
 
 def test_line_webhook_replies_to_unbound_teacher(monkeypatch) -> None:
@@ -326,11 +369,16 @@ def test_line_webhook_lesson_quick_reply_flow_creates_request(monkeypatch) -> No
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine, expire_on_commit=False)
     replies = []
+    enqueued = []
     monkeypatch.setattr(
         "app.services.line_messaging.LineMessagingService.reply_text",
         lambda self, reply_token, text, quick_reply_items=None: replies.append(
             (reply_token, text, quick_reply_items)
         ),
+    )
+    monkeypatch.setattr(
+        "app.services.queue.QueueService.enqueue_lesson_generation",
+        lambda self, lesson_request_id: enqueued.append(lesson_request_id) or "test-job-id",
     )
 
     with Session() as db:
@@ -382,6 +430,7 @@ def test_line_webhook_lesson_quick_reply_flow_creates_request(monkeypatch) -> No
     assert lessons[0].grade == 5
     assert lessons[0].subject == "science"
     assert lessons[0].topic == "plant parts"
+    assert enqueued == [str(lessons[0].id)]
     assert teacher.note is None
 
 

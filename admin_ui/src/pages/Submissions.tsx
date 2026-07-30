@@ -26,6 +26,7 @@ const statusFilters = [
   { label: "Embedded", value: "embedded" },
   { label: "Needs revision", value: "needs_revision" },
   { label: "Rejected", value: "rejected" },
+  { label: "Deleted", value: "deleted" },
 ];
 
 export function SubmissionsPage({ navigate }: { navigate: (path: string) => void }) {

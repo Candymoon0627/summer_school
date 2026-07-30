@@ -281,6 +281,33 @@ class SubmissionService:
         self.db.commit()
         return submission
 
+    def delete(
+        self,
+        submission_id: UUID | str,
+        *,
+        current_admin: AdminPrincipal | None = None,
+        note: str | None = None,
+    ) -> Submission:
+        submission = self._get_or_raise(submission_id)
+        self._require_status(
+            submission,
+            DRAFT_STATUSES
+            | REVIEWABLE_STATUSES
+            | {"second_approved", "rejected", "published", "embedded", "queue_failed"},
+        )
+        before = submission.status
+        submission.status = "deleted"
+        self._record(
+            submission,
+            action="deleted",
+            before_status=before,
+            after_status=submission.status,
+            current_admin=current_admin,
+            note=note or "Deleted from admin UI.",
+        )
+        self.db.commit()
+        return submission
+
     def publish_to_knowledge(
         self,
         submission_id: UUID | str,

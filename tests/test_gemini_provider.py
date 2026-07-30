@@ -56,6 +56,27 @@ class FakeClient:
     models = FakeTextModels()
 
 
+class RetryableGeminiError(Exception):
+    status_code = 503
+
+
+class FakeRetryTextModels:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    def generate_content(self, **kwargs):
+        self.calls += 1
+        if self.calls == 1:
+            raise RetryableGeminiError("temporary high demand")
+        assert kwargs["model"] == "gemini-test"
+        return FakeResponse()
+
+
+class FakeRetryClient:
+    def __init__(self) -> None:
+        self.models = FakeRetryTextModels()
+
+
 def test_gemini_provider_parses_structured_lesson() -> None:
     provider = GeminiModelProvider(api_key="test-key", model_name="gemini-test", client=FakeClient())
 
@@ -66,6 +87,21 @@ def test_gemini_provider_parses_structured_lesson() -> None:
     assert result.rendered_markdown.startswith("# Fractions with Market Sharing")
     assert result.token_input == 12
     assert result.token_output == 34
+
+
+def test_gemini_provider_retries_retryable_generation_error() -> None:
+    client = FakeRetryClient()
+    provider = GeminiModelProvider(
+        api_key="test-key",
+        model_name="gemini-test",
+        client=client,
+        retry_delays=(0,),
+    )
+
+    result = provider.generate_lesson("Subject: science")
+
+    assert result.structured_content.title == "Fractions with Market Sharing"
+    assert client.models.calls == 2
 
 
 class FakeEmbedding:

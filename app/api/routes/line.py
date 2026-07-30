@@ -22,6 +22,7 @@ async def line_webhook(
     payload = json.loads(body.decode("utf-8") or "{}")
     with SessionLocal() as db:
         result = LineWebhookService(db).handle_payload(payload)
+        db.commit()
     return {"status": "received", **result}
 
 

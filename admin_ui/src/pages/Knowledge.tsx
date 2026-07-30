@@ -41,6 +41,7 @@ export function KnowledgePage() {
   const queryClient = useQueryClient();
   const [selectedId, setSelectedId] = useState<string>("");
   const [importOpen, setImportOpen] = useState(false);
+  const [deleteTarget, setDeleteTarget] = useState<KnowledgeItem | null>(null);
   const [reason, setReason] = useState("Rejected from admin UI.");
   const [result, setResult] = useState<Record<string, unknown> | null>(null);
   const selectedItem = query.data?.items.find((item) => item.id === selectedId) ?? null;
@@ -73,6 +74,7 @@ export function KnowledgePage() {
     },
     onSuccess: async (data) => {
       setResult(data);
+      setDeleteTarget(null);
       await Promise.all([
         queryClient.invalidateQueries({ queryKey: ["knowledge"] }),
         queryClient.invalidateQueries({ queryKey: ["knowledge-versions", selectedId] }),
@@ -314,11 +316,9 @@ export function KnowledgePage() {
                     color="error"
                     variant="outlined"
                     disabled={mutation.isPending || !selectedIsSchoolOwned}
-                    onClick={() =>
-                      mutation.mutate({ kind: "soft-delete", id: selectedItem.id, reason })
-                    }
+                    onClick={() => setDeleteTarget(selectedItem)}
                   >
-                    Soft delete
+                    Delete
                   </Button>
                 </Stack>
               </Stack>
@@ -353,6 +353,40 @@ export function KnowledgePage() {
         onClose={() => setImportOpen(false)}
         onSubmit={(body) => importKnowledge.mutate(body)}
       />
+      <Dialog open={Boolean(deleteTarget)} onClose={() => setDeleteTarget(null)} maxWidth="sm" fullWidth>
+        <DialogTitle>Delete Knowledge</DialogTitle>
+        <DialogContent>
+          <Stack spacing={2} sx={{ pt: 1 }}>
+            <Alert severity="warning">
+              This will remove the knowledge item from normal lists and RAG retrieval while keeping its
+              audit history.
+            </Alert>
+            <KeyValue label="Title" value={deleteTarget?.title ?? "-"} />
+            <TextField
+              label="Reason"
+              value={reason}
+              onChange={(event) => setReason(event.target.value)}
+              multiline
+              minRows={2}
+            />
+          </Stack>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setDeleteTarget(null)}>Cancel</Button>
+          <Button
+            color="error"
+            variant="contained"
+            disabled={mutation.isPending || !deleteTarget}
+            onClick={() =>
+              deleteTarget
+                ? mutation.mutate({ kind: "soft-delete", id: deleteTarget.id, reason })
+                : undefined
+            }
+          >
+            {mutation.isPending ? "Deleting..." : "Delete"}
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Stack>
   );
 }

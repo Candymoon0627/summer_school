@@ -44,7 +44,7 @@ def test_link_rich_menu_uses_messaging_api_host(monkeypatch) -> None:
     ]
 
 
-def test_reply_menu_card_sends_flex_with_quick_replies(monkeypatch) -> None:
+def test_reply_menu_card_for_lesson_has_no_quick_replies(monkeypatch) -> None:
     monkeypatch.setenv("LINE_CHANNEL_ACCESS_TOKEN", "test-token")
     get_settings.cache_clear()
     calls = []
@@ -80,4 +80,31 @@ def test_reply_menu_card_sends_flex_with_quick_replies(monkeypatch) -> None:
     assert message["altText"] == "Generate Lesson"
     assert message["contents"]["type"] == "bubble"
     assert message["contents"]["footer"]["contents"][0]["action"]["text"] == "/lesson_choose_grade"
-    assert message["quickReply"]["items"][0]["action"]["text"] == "/menu_history"
+    assert "quickReply" not in message
+
+
+def test_line_reply_transport_error_does_not_raise(monkeypatch) -> None:
+    monkeypatch.setenv("LINE_CHANNEL_ACCESS_TOKEN", "test-token")
+    get_settings.cache_clear()
+    monkeypatch.setattr("app.services.line_messaging.time.sleep", lambda delay: None)
+    calls = []
+
+    class FakeClient:
+        def __init__(self, *, timeout: int) -> None:
+            self.timeout = timeout
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args) -> None:
+            return None
+
+        def post(self, url: str, json: dict, headers: dict):
+            calls.append((url, json, headers))
+            raise httpx.ConnectError("temporary SSL EOF")
+
+    monkeypatch.setattr(httpx, "Client", FakeClient)
+
+    LineMessagingService().reply_text("reply-token", "hello")
+
+    assert len(calls) == 3

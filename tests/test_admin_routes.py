@@ -189,6 +189,46 @@ def test_admin_submission_review_flow(monkeypatch) -> None:
     }
 
 
+def test_submission_delete_is_hidden_from_default_list(monkeypatch) -> None:
+    client = _client_with_seed_data(monkeypatch)
+    before = client.get("/admin/overview", auth=AUTH)
+    created = client.post(
+        "/admin/submissions",
+        auth=AUTH,
+        json={
+            "title": "Delete me",
+            "subject": "science",
+            "topic": "weather",
+            "grade_min": 4,
+            "grade_max": 4,
+            "content_en": "Temporary deleted test.",
+            "submit": True,
+        },
+    )
+    submission_id = created.json()["id"]
+    after_create = client.get("/admin/overview", auth=AUTH)
+
+    deleted = client.post(
+        f"/admin/submissions/{submission_id}/delete",
+        auth=AUTH,
+        json={"note": "No longer needed."},
+    )
+
+    assert deleted.status_code == 200
+    assert deleted.json()["status"] == "deleted"
+    default_list = client.get("/admin/submissions", auth=AUTH)
+    assert submission_id not in {item["id"] for item in default_list.json()["items"]}
+    deleted_list = client.get("/admin/submissions?status=deleted", auth=AUTH)
+    assert submission_id in {item["id"] for item in deleted_list.json()["items"]}
+    detail = client.get(f"/admin/submissions/{submission_id}", auth=AUTH)
+    assert detail.status_code == 200
+    assert detail.json()["reviews"][-1]["action"] == "deleted"
+    after_delete = client.get("/admin/overview", auth=AUTH)
+    assert after_create.json()["counts"]["submissions"] == before.json()["counts"]["submissions"] + 1
+    assert after_delete.json()["counts"]["submissions"] == before.json()["counts"]["submissions"]
+    assert "deleted" not in after_delete.json()["submission_status"]
+
+
 def test_school_admin_scope_filters_school_data(monkeypatch) -> None:
     client = _client_with_seed_data(monkeypatch)
 
@@ -300,6 +340,52 @@ def test_school_admin_submission_and_knowledge_are_school_private(monkeypatch) -
         auth=AUTH,
     )
     assert blocked_region_approval.status_code == 403
+
+
+def test_school_admin_publish_shared_submission_creates_private_knowledge(monkeypatch) -> None:
+    client = _client_with_seed_data(monkeypatch)
+
+    with admin.SessionLocal() as db:
+        scoped_school = db.scalar(select(models.School).where(models.School.name == "Admin Test School"))
+        submission = models.Submission(
+            school_id=scoped_school.id,
+            region_id=scoped_school.region_id,
+            status="second_approved",
+            current_review_stage=2,
+            visibility_scope="shared_region",
+            knowledge_type="local_example",
+            subject="science",
+            topic="rain",
+            title="Teacher shared contribution",
+            target_grade=4,
+            grade_min=4,
+            grade_max=4,
+            content_en="A rain example submitted by a teacher.",
+            source_note="LINE teacher submission.",
+        )
+        db.add(submission)
+        db.commit()
+        db.refresh(submission)
+        submission_id = str(submission.id)
+
+    monkeypatch.setenv("ADMIN_ROLE", "school_admin")
+    monkeypatch.setenv("ADMIN_SCHOOL_IDS", str(scoped_school.id))
+    get_settings.cache_clear()
+
+    published = client.post(f"/admin/submissions/{submission_id}/publish-to-knowledge", auth=AUTH)
+
+    assert published.status_code == 200
+    assert published.json()["status"] == "embedded"
+    assert published.json()["visibility_scope"] == "private_school"
+    knowledge_item_id = published.json()["knowledge_item_id"]
+    assert knowledge_item_id
+
+    knowledge = client.get("/admin/knowledge", auth=AUTH)
+    assert knowledge.status_code == 200
+    item = next(item for item in knowledge.json()["items"] if item["id"] == knowledge_item_id)
+    assert item["title"] == "Teacher shared contribution"
+    assert item["visibility_scope"] == "private_school"
+    assert item["owner_school_id"] == str(scoped_school.id)
 
 
 def test_database_admin_users_login_with_separate_school_scopes(monkeypatch) -> None:

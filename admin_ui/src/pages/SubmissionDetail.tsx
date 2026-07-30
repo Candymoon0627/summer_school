@@ -68,6 +68,7 @@ export function SubmissionDetailPage({
   const queryClient = useQueryClient();
   const [note, setNote] = useState("");
   const [editOpen, setEditOpen] = useState(false);
+  const [deleteOpen, setDeleteOpen] = useState(false);
   const updateSubmission = useMutation({
     mutationFn: (body: Record<string, unknown>) => adminApi.updateSubmission(submissionId, body),
     onSuccess: async () => {
@@ -94,6 +95,7 @@ export function SubmissionDetailPage({
   const runAction = async (action: string) => {
     await mutation.mutateAsync({ action, note: note || undefined });
     setNote("");
+    setDeleteOpen(false);
   };
 
   return (
@@ -160,6 +162,14 @@ export function SubmissionDetailPage({
                     {mutation.isPending ? "Working..." : item.label}
                   </Button>
                 ))}
+                <Button
+                  color="error"
+                  variant="outlined"
+                  disabled={mutation.isPending || submission.status === "deleted"}
+                  onClick={() => setDeleteOpen(true)}
+                >
+                  Delete submission
+                </Button>
               </Stack>
             </SectionCard>
           </Stack>
@@ -225,6 +235,36 @@ export function SubmissionDetailPage({
         onClose={() => setEditOpen(false)}
         onSubmit={(body) => updateSubmission.mutate(body)}
       />
+      <Dialog open={deleteOpen} onClose={() => setDeleteOpen(false)} maxWidth="sm" fullWidth>
+        <DialogTitle>Delete Submission</DialogTitle>
+        <DialogContent>
+          <Stack spacing={2} sx={{ pt: 1 }}>
+            <Alert severity="warning">
+              This hides the submission from the default list while keeping its detail page and review
+              history. Linked knowledge items are not deleted.
+            </Alert>
+            <KeyValue label="Title" value={submission.title || "-"} />
+            <TextField
+              label="Delete note"
+              value={note}
+              onChange={(event) => setNote(event.target.value)}
+              multiline
+              minRows={2}
+            />
+          </Stack>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setDeleteOpen(false)}>Cancel</Button>
+          <Button
+            color="error"
+            variant="contained"
+            disabled={mutation.isPending}
+            onClick={() => void runAction("delete")}
+          >
+            {mutation.isPending ? "Deleting..." : "Delete"}
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Stack>
   );
 }

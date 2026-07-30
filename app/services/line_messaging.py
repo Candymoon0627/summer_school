@@ -1,4 +1,5 @@
 import logging
+import time
 
 import httpx
 
@@ -6,6 +7,8 @@ from app.core.config import get_settings
 from app.services.language import LANGUAGE_QUICK_REPLY_LABELS, SupportedLanguage
 
 logger = logging.getLogger(__name__)
+LINE_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+LINE_RETRY_DELAYS_SECONDS = (0.0, 0.5)
 
 
 class LineMessagingService:
@@ -132,9 +135,44 @@ class LineMessagingService:
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/json",
         }
-        with httpx.Client(timeout=10) as client:
-            response = client.post(url, json=payload, headers=headers)
-            response.raise_for_status()
+        for attempt in range(len(LINE_RETRY_DELAYS_SECONDS) + 1):
+            try:
+                with httpx.Client(timeout=10) as client:
+                    response = client.post(url, json=payload, headers=headers)
+                status_code = getattr(response, "status_code", None)
+                if (
+                    status_code in LINE_RETRYABLE_STATUS_CODES
+                    and attempt < len(LINE_RETRY_DELAYS_SECONDS)
+                ):
+                    delay = LINE_RETRY_DELAYS_SECONDS[attempt]
+                    logger.warning(
+                        "LINE request returned %s on attempt %s/%s; retrying in %.1fs: %s",
+                        status_code,
+                        attempt + 1,
+                        len(LINE_RETRY_DELAYS_SECONDS) + 1,
+                        delay,
+                        url,
+                    )
+                    time.sleep(delay)
+                    continue
+                response.raise_for_status()
+                return
+            except httpx.TransportError as exc:
+                if attempt >= len(LINE_RETRY_DELAYS_SECONDS):
+                    logger.exception("LINE request failed after retries: %s", url)
+                    return
+                delay = LINE_RETRY_DELAYS_SECONDS[attempt]
+                logger.warning(
+                    "LINE request transport error on attempt %s/%s; retrying in %.1fs: %s",
+                    attempt + 1,
+                    len(LINE_RETRY_DELAYS_SECONDS) + 1,
+                    delay,
+                    exc,
+                )
+                time.sleep(delay)
+            except httpx.HTTPStatusError:
+                logger.exception("LINE request rejected: %s", url)
+                return
 
 
 MENU_CARD_COPY = {
@@ -147,7 +185,7 @@ MENU_CARD_COPY = {
                 ("เปลี่ยนภาษา", "/change language"),
                 ("ช่วยเหลือ", "/menu_help"),
             ],
-            "quick_replies": [("ประวัติ", "/menu_history"), ("ส่งข้อความ", "/menu_submit_text")],
+            "quick_replies": [],
         },
         "ms": {
             "title": "Jana Pelajaran",
@@ -157,7 +195,7 @@ MENU_CARD_COPY = {
                 ("Tukar bahasa", "/change language"),
                 ("Bantuan", "/menu_help"),
             ],
-            "quick_replies": [("Sejarah", "/menu_history"), ("Hantar teks", "/menu_submit_text")],
+            "quick_replies": [],
         },
         "en": {
             "title": "Generate Lesson",
@@ -167,7 +205,7 @@ MENU_CARD_COPY = {
                 ("Language", "/change language"),
                 ("Help", "/menu_help"),
             ],
-            "quick_replies": [("History", "/menu_history"), ("Submit text", "/menu_submit_text")],
+            "quick_replies": [],
         },
     },
     "submit_text": {

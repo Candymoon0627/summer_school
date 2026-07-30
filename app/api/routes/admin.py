@@ -177,7 +177,10 @@ def _lesson_status_counts(db, current_admin: AdminPrincipal) -> dict[str, int]:
 def _submission_status_counts(db, current_admin: AdminPrincipal) -> dict[str, int]:
     statement = (
         select(Submission.status, func.count())
-        .where(Submission.school_id.in_(_school_scope(current_admin)))
+        .where(
+            Submission.school_id.in_(_school_scope(current_admin)),
+            Submission.status != "deleted",
+        )
         .group_by(Submission.status)
     )
     return {status: count for status, count in db.execute(statement).all()}
@@ -293,10 +296,7 @@ def _submission_action(
             and current_admin.is_scoped
             and submission.visibility_scope != "private_school"
         ):
-            raise HTTPException(
-                status_code=403,
-                detail="School admin can only publish private-school submissions.",
-            )
+            submission.visibility_scope = "private_school"
         try:
             submission = action(SubmissionService(db))
         except ValueError as exc:
@@ -408,7 +408,9 @@ def overview(current_admin: AdminPrincipal = ADMIN_USER_DEP) -> dict:
             .where(_knowledge_scope_condition(db, current_admin))
         )
         lessons_count = select(func.count()).select_from(LessonRequest)
-        submissions_count = select(func.count()).select_from(Submission)
+        submissions_count = (
+            select(func.count()).select_from(Submission).where(Submission.status != "deleted")
+        )
         if current_admin.is_scoped:
             schools_count = _filter_school_scope(schools_count, current_admin, School.id)
             teachers_count = _filter_school_scope(teachers_count, current_admin, Teacher.school_id)
@@ -685,6 +687,8 @@ def list_submissions(
         query = select(Submission).order_by(Submission.created_at.desc()).limit(limit)
         if status:
             query = query.where(Submission.status == status)
+        else:
+            query = query.where(Submission.status != "deleted")
         query = _filter_school_scope(query, current_admin, Submission.school_id)
         submissions = list(db.scalars(query))
         return {"items": [_submission_summary(item) for item in submissions]}
@@ -840,6 +844,23 @@ def reject_submission(
         submission_id,
         current_admin,
         lambda service: service.reject(
+            UUID(submission_id),
+            current_admin=current_admin,
+            note=action.note if action else None,
+        ),
+    )
+
+
+@router.post("/submissions/{submission_id}/delete")
+def delete_submission(
+    submission_id: str,
+    action: SubmissionAction | None = None,
+    current_admin: AdminPrincipal = REVIEWER_DEP,
+) -> dict:
+    return _submission_action(
+        submission_id,
+        current_admin,
+        lambda service: service.delete(
             UUID(submission_id),
             current_admin=current_admin,
             note=action.note if action else None,

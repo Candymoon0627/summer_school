@@ -79,6 +79,8 @@ export function useSubmissionAction(id: string) {
     mutationFn: ({ action, note }: { action: string; note?: string }) =>
       action === "publish-to-knowledge"
         ? adminApi.publishSubmission(id)
+        : action === "delete"
+          ? adminApi.deleteSubmission(id, note)
         : adminApi.submissionAction(id, action, note),
     onSuccess: async () => {
       await Promise.all([
