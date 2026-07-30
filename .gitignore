@@ -26,3 +26,10 @@ admin_ui/playwright-report/
 edu_ai_assistant.egg-info/
 .coverage
 htmlcov/
+
+# Internal planning and handoff documents kept out of GitHub.
+HANDOFF.md
+MVP_Architecture.md
+Edu.md
+Edu.pdf
+Edu_addition.pdf
